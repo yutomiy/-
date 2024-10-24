@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="p5.jsで作成した単語落下ゲーム">
+  <title>単語タイピングゲーム</title>
+
+  <!-- p5.jsライブラリの読み込み -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.5.0/p5.js"></script>
+
+  <!-- JavaScriptファイル（sketch.js）の読み込み -->
+  <script src="sketch.js" defer></script>
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #f0f0f0;
+    }
+
+    canvas {
+      display: block;
+    }
+
+    .info {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <!-- ゲームがキャンバスに描画されるため特別な要素は不要 -->
+
+  <div class="info">
+    <h1>単語タイピングゲーム</h1>
+    <p>タイピングで単語を入力して、制限時間内にできるだけ多くの単語を正しく入力しよう！</p>
+  </div>
+</body>
+</html>
